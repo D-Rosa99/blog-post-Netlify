@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import { attributes, react as HomeContent } from "../content/home.md";
+import { attributes, react as HomeContent } from "./../../content/home.md";
 
 const Home = () => {
   let { title, cats } = attributes;
